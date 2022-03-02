@@ -1,13 +1,16 @@
 import React from 'react';
 import '../App.css';
+import Header from './Header';
 
 function App() {
   return (
-     <React.Fragment>
-       <h1>Nyolis Products</h1>
+    <React.Fragment>
+    <div>
+       <Header/>
+     </div>
      </React.Fragment>
     
-  );
+  )
 }
 
 export default App;
