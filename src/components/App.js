@@ -5,9 +5,9 @@ import Header from './Header';
 function App() {
   return (
     <React.Fragment>
-    <div>
-       <Header/>
-     </div>
+    <div className="container-fluid">
+      <Header />
+    </div>
      </React.Fragment>
     
   )

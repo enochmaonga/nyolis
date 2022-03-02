@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
+import '../styles/header.css';
 import Navbar from './Navbar';
+
 function Header() {
    return (
        <React.Fragment>
@@ -7,7 +9,8 @@ function Header() {
        <div className='section-1'>
                <div className="container">
                    <div className="row">
-                   <Navbar />  
+                       <Navbar />  {/*Added Navbar component here */}
+                      
                        <div className="col-12">
                            <div className="title d-flex">
                                <div className="justify-content-center align-self-center w-100">
