@@ -4,6 +4,7 @@ import Header from './Header';
 import AboutUs from './AboutUs';
 import footer from '../Styles/Footer.css'
 import Footer from './Footer';
+import ProductList from './ProductList';
 
 function App() {
   return (
