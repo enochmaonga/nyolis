@@ -1,7 +1,7 @@
 
 /* section 4 */
 .section-4{
-    background-image: url('../images/about.jpg');
+    background-image: url('../components/Images/about.jpg');
     background-size: cover;
     padding-bottom: 70px;
     padding-top: 80px;

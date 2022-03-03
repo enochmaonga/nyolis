@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import g_plus from './Images/g_plus.png';
 import facebook from './Images/facebook.png';
 import youtube from './Images/you_tube.png';

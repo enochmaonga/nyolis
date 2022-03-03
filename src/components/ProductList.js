@@ -7,7 +7,7 @@ import tshirt from './Images/tshirt.png';
 import backpack from './Images/backpack.png';
 import pants from './Images/pants.png';
 import trekkingshoes from './Images/trekkingshoes.png';
-import giacket from './Images/jacket.png';
+import jacket from './Images/jacket.png';
 import tshirt_ladies from './Images/tshirt_ladies.png';
 
 // ActualProductList
@@ -57,6 +57,14 @@ const actualProductList = [
                         </div>
                         <div className="col-4 col-sm-4 col-md-4">
                             <p className="product-title text-center">PRODUCTS </p>
+                            <p className="mx-auto icons">
+                               <img src={tshirt} className="products" alt="tshirt.png"/>
+                               <img src={backpack} className="products" alt="backpack"/>
+                               <img src={pants} className="products" alt="pants"/>
+                               <img src={trekkingshoes} className="products" alt="trekkingshoes"/>
+                               <img src={jacket} className="products" alt="jacket"/>
+                               <img src={tshirt_ladies} className="products" alt="tshirt_ladies"/>
+                               </p>
                         </div>
                         <div className="col-4 col-sm-4 col-md-4">
                             <div className="abt-top-border"> </div>
