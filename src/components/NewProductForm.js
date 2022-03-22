@@ -1,7 +1,15 @@
 import React from 'react';
 import '../Styles/NewProductForm.css'
+import {v4} from uuid;
 
 function NewProductForm() {
+      // Function for handling onsubmission event
+   function handleNewProductFormSubmission(event){
+    event.preventDefault();
+    console.log(event.target.name.value)
+    console.log(event.target.price.value)
+    console.log(event.target.description.value)
+    console.log(event.target.quantity.value)
    return (
        <React.Fragment>
 

@@ -2,6 +2,7 @@
 import React from 'react';
 import '../Styles/ProductList.css';
 import Product from './Product';
+import NewProductForm from './NewProductForm';
 
 import tshirt from './Images/tshirt.png';
 import backpack from './Images/backpack.png';

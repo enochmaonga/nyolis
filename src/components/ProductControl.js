@@ -7,7 +7,8 @@ class ProductControl extends Component {
    constructor(props){
        super(props);
        this.state ={
-           productFormVisible: false
+           productFormVisible: false,
+           actualProductList: actualProductList,
        }
    }
    handleClick = ()=>{
