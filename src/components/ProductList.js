@@ -45,7 +45,8 @@ const actualProductList = [
         id: '6'
     }
  ]
- function ProductList() {
+
+ function ProductList(props) {
     return (
         <React.Fragment>
         <div className='container' id="products">
@@ -58,17 +59,17 @@ const actualProductList = [
                         </div>
                         <div className="col-4 col-sm-4 col-md-4">
                             <p className="product-title text-center">PRODUCTS </p>
-                            <p className="mx-auto icons">
+                            {/* <p className="mx-auto icons">
                                <img src={tshirt} className="products" alt="tshirt.png"/>
                                <img src={backpack} className="products" alt="backpack"/>
                                <img src={pants} className="products" alt="pants"/>
                                <img src={trekkingshoes} className="products" alt="trekkingshoes"/>
                                <img src={jacket} className="products" alt="jacket"/>
                                <img src={tshirt_ladies} className="products" alt="tshirt_ladies"/>
-                               </p>
+                               </p> */}
                         </div>
-                        <div className="col-4 col-sm-4 col-md-4">
-                            <div className="abt-top-border"> </div>
+                        {/* <div className="col-4 col-sm-4 col-md-4">
+                            <div className="abt-top-border"> </div> */}
                 </div>
                
             </div>
@@ -76,7 +77,7 @@ const actualProductList = [
             {/* Product List */}
             <div className="men-products">
                 <div className="row">
-                {actualProductList.map((product) =>
+                {props.ProductList.map((product) =>
                     <  Product 
                     photo = {product.photo}
                     name = {product.name}
@@ -89,9 +90,9 @@ const actualProductList = [
  
             </div>
  
-        </div>
- 
         </React.Fragment>
+ 
+    
     )
  }
 
